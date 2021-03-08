@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    padding: 6px;
+}
+.header{
+    color: hsl(300, 43%, 22%);
+    font-family: "Spartan", Arial, Helvetica, sans-serif;  
+    font-weight:  700;
+    width: 100%;
+    font-size: 20px;
+
+}
+h1{
+    padding: 2%;
+    text-align: center;
+    /* width: 40%; */
+
+}
+.contain-main{
+
+    width: 100%;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+span{
+    font-size: 15px;
+    font-family: "Spartan", Arial, Helvetica, sans-serif;   
+    font-weight: 400;
+    color:hsl(333, 80%, 67%);
+}
+h4{ 
+    color:  hsl(300, 10%, 53%);
+    font-size: 18.5px;
+    font-family: "Spartan", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    /* width: 30%; */
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 20px;
+    /* text-align: center; */
+}
+
+h5
+{
+    font-size: 15px;
+    font-family:"Spartan", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    /* text-align: start; */
+}
+p{
+    font-family: "Spartan", Arial, Helvetica, sans-serif; 
+}
+.star{
+    font-size: 15px;
+    font-family: "Spartan", Arial, Helvetica, sans-serif; 
+    list-style: none;
+    background-color:hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    border-radius: 15px;
+    font-weight: 700;
+    padding: 36px;
+    text-align: center;
+   
+
+   
+}
+.contain2{
+    width: 100%;
+  
+}
+.contain3{
+    width: 100%;
+}
+.contain4{
+    width: 100%;
+}
+.img{
+    margin: 20px;
+    width: 25%;
+    border-radius: 50%;
+}
+.name-text{
+    display: flex;
+   flex-direction: row;
+}
+
+.box1{
+
+    padding: 12px;    
+    background-color:  hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 15px;
+   
+
+}
+.box2{
+   
+    padding: 12px;
+    background-color:  hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 15px;
+  
+}
+.box3{
+    padding: 12px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 15px;
+ 
+}
+@media screen and (min-width: 600px){
+    h1{
+        padding: 2%;
+        text-align: center;
+        width: 40%;
+    
+    }
+    li{
+        padding: 1%;
+        width: 10%;
+    }
+ .contain2{
+     display: flex;
+     flex-direction: column;
+     /* line-height: 45px; */
+     justify-content: space-around;
+     padding: 0;
+     
+ }
+ .contain3{
+    display: flex;
+    flex-direction: column;
+    /* line-height: 45px; */
+    justify-content: space-around;
+    transform: translateX(40px);
+    padding: 0;
+}
+.contain4{
+    display: flex;
+    flex-direction: column;
+    /* line-height: 45px; */
+    justify-content: space-around;
+    transform: translateX(80px);
+    padding: 0;
+}
+.name-text{
+    display:flex;
+    width: 100%;
+}
+.comment{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.star{
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif; 
+    list-style: none;
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 15px;
+    font-weight: 700;
+    padding: 15px;
+    margin: 10px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 7px; */
+
+}
+.img{
+    width: 35%;
+    border-radius: 50%;
+}
+.box1{
+
+    padding: 12px;    
+    background-color:  hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 15px;
+    width: 30%;
+
+}
+.box2{
+   
+    padding: 12px;
+    background-color:  hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 15px;
+    width: 30%;
+    transform: translateY(15px);
+}
+.box3{
+    padding: 12px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 15px;
+    width: 30%;
+    transform: translateY(40px);
+}
+.header{
+    color: hsl(300, 43%, 22%);
+    font-family: 'Spartan', sans-serif;    font-weight:  700;
+    /* width: 25%; */
+    display: flex;
+    flex-direction: row;
+
+}
+.contain-main{
+    width: 60%;
+   
+}
+h4{ 
+    color:  hsl(300, 10%, 53%);
+    font-size: 18.5px;
+    font-family: "Spartan", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    text-align: start;
+
+}
+
+}
